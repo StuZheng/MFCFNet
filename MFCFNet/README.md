@@ -1,6 +1,6 @@
 # MFCFNet
 This repo contains the supported code for MFCFNet: Multi-Feature Collaborative Fusion Network with Deep Supervision for SAR Ship Classification.
-<div align=center><img  src="https://github.com/StuZheng/MFCFNet/blob/master/MFCFNet/fig/all.png"/></div>
+<div align=center><img  src="https://github.com/StuZheng/MFCFNet/blob/master/MFCFNet/fig/MFCFNet.png"/></div>
 # Environment
 
 ```
