@@ -2,6 +2,10 @@
 This is the implementation of our paper: Multi-feature collaborative fusion network with deep supervision for sar ship classification (TGRS 2023). 
 <div align=center><img  src="https://github.com/StuZheng/MFCFNet/blob/master/fig/MFCFNet.png"/></div>
 
+(a)–(g) Seven categories of SAR ship images in the FUSAR-Ship dataset. (a) Container, (b) general cargo, (c) fishing, (d) tanker, (e) bulk, (f) other
+cargo, and (g) others. The first row is the original image and the other rows are corresponding handcrafted feature visualizations.
+<div align=center><img  src="https://github.com/StuZheng/MFCFNet/blob/master/fig/Hand_Feature.png"/></div>
+
 ## 📦 Environment
 
 ```
