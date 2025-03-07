@@ -7,14 +7,12 @@ This is the implementation of our paper: Multi-feature collaborative fusion netw
 ```
 conda create -n xxxx
 conda install --yes --file requirements.txt
-
 ```
 
 ## 💡 RUN
 
 ```
 python hand_MultiCNN
-
 ```
 
 ## 🧑🏻‍💻 Bugs or Questions?
