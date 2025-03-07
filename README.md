@@ -12,7 +12,7 @@ conda install --yes --file requirements.txt
 ## 💡 RUN
 
 ```
-python hand_MultiCNN
+python hand_MultiCNN.py
 ```
 
 ## 🧑🏻‍💻 Bugs or Questions?
