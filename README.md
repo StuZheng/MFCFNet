@@ -6,6 +6,11 @@ This is the implementation of our paper: Multi-feature collaborative fusion netw
 cargo, and (g) others. The first row is the original image and the other rows are corresponding handcrafted feature visualizations.
 <div align=center><img  src="https://github.com/StuZheng/MFCFNet/blob/master/fig/Hand_Feature.png"/></div>
 
+## Abstract
+
+Multifeature synthetic aperture radar (SAR) ship classification aims to build models that can process, correlate, and fuse information from both handcrafted and deep features. Although handcrafted features provide rich expert knowledge, current fusion methods inadequately explore the relatively significant role of handcrafted features in conjunction with deep features, the imbalances in feature contributions, and the cooperative ways in which features learn. In this article, we propose a novel multifeature collaborative fusion network with deep supervision (MFCFNet) to effectively fuse handcrafted features and deep features for SAR ship classification tasks. Specifically, our framework mainly includes two types of feature extraction branches, a knowledge supervision and collaboration module (KSCM) and a feature fusion and contribution assignment module (FFCA). The former module improves the quality of the feature maps learned by each branch through auxiliary feature supervision and introduces a synergy loss to facilitate the interaction of information between deep features and handcrafted features. The latter module utilizes an attention mechanism to adaptively balance the importance among various features and assign the corresponding feature contributions to the total loss function based on the generated feature weights. We conducted extensive experimental and ablation studies on two public datasets, OpenSARShip-1.0 and FUSAR-Ship, and the results show that MFCFNet is effective and outperforms single deep feature and multifeature models based on previous internal FC layer and terminal FC layer fusion. Furthermore, our proposed MFCFNet exhibits better performance than the current state-of-the-art methods.
+
+
 ## 📦 Environment
 
 ```
